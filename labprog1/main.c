@@ -7,7 +7,7 @@ void main()
     scanf("%f%f%f",&a,&b,&c);
     /*compute the discriminant*/
     disc=b*b-4*a*c;
-     /*find the equal roots*/
+    /*find the equal roots*/
 if(disc==0)
 {
     x1=x2=-b/(2*a);
